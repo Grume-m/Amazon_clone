@@ -18,7 +18,7 @@
 //   response.send("Hello from Firebase!");
 // });
 require('dotenv').config();
-const functions = require('firebase-functions');
+
 const express = require('express');
 const cors = require('cors');
 // const { request } = require('express');
