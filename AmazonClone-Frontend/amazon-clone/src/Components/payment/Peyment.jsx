@@ -31,7 +31,7 @@ function Peyment() {
       const response = await axios({
         method: "post",
         // stripe expects the total in a currencies subunits
-        url: `/payments/create?total=${getBasketTotal(basket) * 100}`,
+        url: `/payments/create?total=${parseInt(getBasketTotal(basket) * 100)}`,
       });
       setClientSecret(response.data.clientSecret);
     };
