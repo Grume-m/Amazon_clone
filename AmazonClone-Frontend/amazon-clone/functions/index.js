@@ -28,7 +28,7 @@ const stripe = require('stripe')(process.env.STRIPER_KEY
 // App config
 const app = express();
 // -middlewares
-app.use(cors({ origin: true }));
+app.use(cors());
 app.use(express.json());
 app.get('/', (request, response) => response.status(200).send('hello world'));
 app.post('/payments/create', async (request, response) => {
