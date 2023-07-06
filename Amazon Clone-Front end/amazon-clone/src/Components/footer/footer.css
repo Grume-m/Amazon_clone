@@ -1,0 +1,146 @@
+.back{
+    margin-left: 630px;
+padding: 7px 0;
+color: white;
+}
+.up {
+    background-color: rgb(41, 41, 92);
+
+}
+.footer__wrapper{
+    background-color: rgb(42, 42, 63);
+}
+ul > li:hover{
+    text-decoration: underline;
+}
+.line {
+    color: white;
+    background-color: #111;
+}
+.text_d{
+    line-height: 30px;
+}
+.laun{
+    margin-right: 7px;
+}
+.foorer__img {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    /* object-fit: contain; */
+    width: 100px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+  }
+  .login__log{
+    /* background-color: white; */
+    /* height: 100vh; */
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    padding-left: 270px;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  .yet{
+    border-radius: 2px;
+    /* margin-left: 870px; */
+  }
+  .yet button {
+    padding: 4px 35px;
+    background-color: rgb(42, 42, 63);
+    color: white;
+border-color: white;
+border-radius: 6px;
+
+  }
+  .ye{
+    /* border-radius: 2px; */
+    /* margin-left: 870px; */
+    margin-right: 150px;
+
+  }
+.ye button{
+    padding: 4px 35px;
+    border-radius: 6px;
+    background-color: rgb(42, 42, 63);
+    color: white;
+border-color: white;
+font-size: small;
+
+
+
+    
+
+}
+.footer_logos_container {
+	
+	border-top: 1px solid #3a4553;
+	margin-top: 40px;
+}
+.footer_logos_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+	align-items: center;
+	color: #fff;
+}
+.ftr_wrapper_right {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px;
+	font-size: 14px;
+}
+.footer__logo > img {
+	width: 100px;
+	object-fit: contain;
+	margin: 18px 20px 0;
+}
+.ftr_wrapper_right_brdr {
+	border: 1px solid #848688;
+	border-radius: 3px;
+	padding: 6px 18px 6px 8px;
+	font-size: 13px;
+}
+.ftr_wrapper_right_brdr:first-child {
+	padding-right: 8px;
+}
+.ftr_wrapper_right_brdr:first-child,
+.ftr_wrapper_right_brdr:nth-child(2),
+.ftr_wrapper_right_brdr:nth-child(3) {
+	margin-right: 10px;
+}
+.us img {
+	width: 14px;
+	height: 12px;
+}
+.footer__credit {
+	display: flex;
+	justify-content: center;
+	color: #1598c2;
+	padding: 10px 10px 30px;
+}
+.footer__credit a {
+	text-decoration: none;
+	color: #1598c2;
+	opacity: 0.8;
+	font-style: italic;
+	font-size: 25px;
+}
+.footer__credit a:hover {
+	text-decoration: underline;
+	color: #269eb4;
+	opacity: 1;
+}
+@media (max-width: 500px) {
+	.footer {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	.footer h4 {
+		text-decoration: underline;
+	}
+}
