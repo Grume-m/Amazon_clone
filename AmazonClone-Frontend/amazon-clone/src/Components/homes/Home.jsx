@@ -2,13 +2,16 @@ import React from "react";
 import "./Home.css";
 import Product from "../product/Product.jsx";
 import HomeCarousel from "./HomeCarousel";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.css";
+
 function Home() {
   return (
-    <div className="home">
+    <div className="home ">
       <div className="home__container">
         <HomeCarousel />
 
-        <div className="home__row">
+        <div className="home__row px-4">
           <Product
             id="12321341"
             title="J.west iPad Air iPad 5th Case, Heavy Duty Luxury Bling Glitter Kickstand Sparkle Three Layers Full-Body Protective Silicone iPad Cover for iPad Air 1st 9.7 inch 2013 (A1474 A1475 A1476) Mint"
@@ -24,7 +27,7 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/PrimeDay2023/LU_Homepage_SingleCategory_MA_379x304._SY304_CB602996938_.jpg"
           />
         </div>
-        <div className="home__row">
+        <div className="home__row px-4">
           <Product
             id="4903350"
             title="Canon EOS Rebel T7 DSLR Camera Bundle w/ Canon EF-S 18-55mm f/3.5-5.6 is II Lens + 2pc SanDisk 64GB Memory Cards, Wide Angle Lens, Telephoto Lens, 3pc Filter Kit + Accessory Kit"
@@ -51,7 +54,7 @@ function Home() {
             image="https://m.media-amazon.com/images/I/71DPx44cnQL._AC_UX466_.jpg"
           />
         </div>
-        <div className="home__row">
+        <div className="home__row px-4">
           <Product
             id="4903350"
             title="Amazon Echo (3rd generation) I Smart Speker with Alexa, Charcoal Fabric"
@@ -91,7 +94,7 @@ function Home() {
             image="https://m.media-amazon.com/images/I/81L2HrJZxgL._AC_SY200_.jpg"
           />
         </div>
-        <div className="home__row">
+        <div className="home__row  px-4">
           <Product
             id="4903350"
             title="Amazon Echo (3rd generation) I Smart Speker with Alexa, Charcoal Fabric"
@@ -119,7 +122,7 @@ function Home() {
           />
         </div>
 
-        <div className="home__row car">
+        <div className="home__row car px-4">
           <Product
             id="90829332"
             title="Samsung LC49RG9OSSUXEN 49' Curved LED Gaming Monitor- Super ultra wide Dual WQHD 5120 x 1440"
@@ -128,7 +131,7 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
-        <div className="home__row car">
+        <div className="home__row  car px-4">
           <Product
             id="3254354345"
             title="New Apple MacBook Pro (16-inch, 16GB RAM, 1TB Storage, 2.3GHz Intel Core i9) - Silver"

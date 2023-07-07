@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+// import "bootstrap/dist/css/bootstrap.css";
+
+import "bootstrap/dist/css/bootstrap.css";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
@@ -16,7 +19,6 @@ import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import Orders from "./Components/orders/Orders";
 const promise = loadStripe(
-  //pk_test_51NPCFXKxZDgGSqHTvNeumxXXoqjS2lpuUcDdDV68IlVbpCTlFRVoFuYAW6fFqWAC89w5PdqeIgpjuVvMJmAdRLnQ00s1YM52uZ
   "pk_test_51NPCFXKxZDgGSqHTvNeumxXXoqjS2lpuUcDdDV68IlVbpCTlFRVoFuYAW6fFqWAC89w5PdqeIgpjuVvMJmAdRLnQ00s1YM52uZ"
 );
 function App() {
@@ -46,27 +48,25 @@ function App() {
     // </>
     <>
       <Router>
-        <div>
-          <Header />
-          <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/orders" element={<Orders />} />
-            <Route
-              path="/payment"
-              element={
-                <Elements stripe={promise}>
-                  <Payment />
-                </Elements>
-              }
-            />
+        <Header />
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route
+            path="/payment"
+            element={
+              <Elements stripe={promise}>
+                <Payment />
+              </Elements>
+            }
+          />
 
-            {/* <Route path="/payment" element={<Payment />} /> */}
-            <Route path="/" element={<Home />} />
-            <Route path="/checkout" element={<Checkout />} />
-          </Routes>
-          <NewCostemer />
-          <Footer />
-        </div>
+          {/* <Route path="/payment" element={<Payment />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/checkout" element={<Checkout />} />
+        </Routes>
+        <NewCostemer />
+        <Footer />
       </Router>
     </>
   );
