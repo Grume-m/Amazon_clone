@@ -107,7 +107,7 @@ function Footer() {
             Built by:-
             <a href="https://grume19.com" target="_blank" rel="noreferrer">
               {" "}
-              (Grume Mekonnen)
+              Grume Mekonnen
             </a>
           </h4>
         </div>
