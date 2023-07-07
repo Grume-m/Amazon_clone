@@ -74,31 +74,7 @@ function Footer() {
           </div>
         </div>
         <hr className="line" />
-        {/* <div className="login__log ">
-          <div className="col-md">
-            {/* <Link to-="/"> */}
-        {/* <img
-              className="foorer__img "
-              src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" */}
-        {/* // alt=""
-              // "login_logo"
-              // src="https://m.media-amazon.com/images/G/01/gc/designs/livepreview/a_generic_white_10_us_noto_email_v2016_us-main._CB627448186_.png"
-            /> */}
-        {/* </div>
-          <div className="col-md yet">
-            {/* </> */}
-        {/* <button> */}
-        {/* <LanguageIcon className="laun" /> English */}
-        {/* </button> */}
-        {/* </div>
-          <div className="col-md ye">
-            <button> */}
-        {/* <img src={flag} alt="" /> */}
-        {/* <img src={usFlag} alt="" />
-              United State */}
-        {/* </button> */}
-        {/* </div> */}
-        {/* </div> */}
+
         <div className="footer_logos_container">
           <div className="footer_logos_wrapper">
             <div className="header__clearlink">
@@ -131,7 +107,7 @@ function Footer() {
             Built by:-
             <a href="https://grume19.com" target="_blank" rel="noreferrer">
               {" "}
-              (G)
+              (Grume Mekonnen)
             </a>
           </h4>
         </div>
